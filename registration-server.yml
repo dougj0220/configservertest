@@ -13,8 +13,3 @@ server:
 spring:
   thymeleaf:
     enabled: false     # Disable Thymeleaf 
-  cloud:
-    config:
-        env: default
-        label: master
-        uri: http://localhost:8888
