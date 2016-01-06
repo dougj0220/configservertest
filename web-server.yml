@@ -8,7 +8,10 @@ spring:
     cache: false       # Allow Thymeleaf templates to be reloaded at runtime
     prefix: classpath:/web-server/templates/    # Trailing / mandatory
                        # Template location for this application only
-
+  config:
+    env: default
+    label: master
+    uri: http://localhost:8888
 # Map the error path to error template (for Thymeleaf)
 error:
   path=/error
