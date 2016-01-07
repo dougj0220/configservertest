@@ -2,6 +2,23 @@
 spring:
   application:
     name: kb-service  # Service registers under this name
+#DataSource
+  datasource:
+    url: jdbc:mysql://localhost:3306/abbydb
+    username: abbyuser
+    password: password
+    driverClassName: com.mysql.jdbc.Driver
+    testWhileIdle: true
+    validationQuery: SELECT 1
+#Hibernate
+  jpa:
+    show-sql: false
+    hibernate: 
+      ddl-auto: validate
+      naming-strategy: org.hibernate.cfg.DefaultNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
 # Discovery Server Access
 eureka:
   client:
