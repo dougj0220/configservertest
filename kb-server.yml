@@ -24,4 +24,4 @@ eureka:
 server:
   port: 4444   # HTTP (Tomcat) port
   
-hello: From kb-server Hello World!!!
+hello: Updated kb-server Hello World!!!
