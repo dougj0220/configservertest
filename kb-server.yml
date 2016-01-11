@@ -24,4 +24,3 @@ eureka:
 server:
   port: 4444   # HTTP (Tomcat) port
   
-hello: Hi World!!!
