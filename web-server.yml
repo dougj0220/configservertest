@@ -21,5 +21,3 @@ eureka:
 # HTTP Server
 server:
   port: 3333   # HTTP (Tomcat) port
-  
-hello: Doug Updated Hello World!!!
