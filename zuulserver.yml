@@ -13,7 +13,8 @@ zuul:
   routes:
     stores: /stores/**
     customers: /customers/**
-    web-server: /web-server/**
+    doug: /web-service/**
+    kb: /kb-service/**
 
 server:
   port: 8765
