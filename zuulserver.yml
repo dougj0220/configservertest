@@ -10,11 +10,11 @@ endpoints:
     sensitive: false
 
 zuul:
+  ignoredServices: "*"
   routes:
-    stores: /stores/**
-    customers: /customers/**
-    doug: /web-service/**
-    kb: /kb-service/**
+    web-service: /web/**
+    kb-service: /kb/**
+    accounts-service: /accounts/**
 
 server:
   port: 8765
